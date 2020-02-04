@@ -12,7 +12,12 @@ urlFragment: function-image-upload-resize
 
 # Image Upload Resize 
 ##lawa 200203
-Har tagit detta exempel från microsoft och lagt här. Se annars kommentarer i gnaget.git/readme.md
+Har tagit detta exempel från microsoft och lagt här. Se annars kommentarer i gnaget.git/readme.md. 
+* Projektet är oförändrat och fungerar som om jag hade använt orginallänken, ville bara ha kontroll över det.
+* Har byggt mha vs2017 lokalt. Till ingen nytta eftersom:
+    * det är som sagt oförändrat
+    * byggresultat checkas inte in (.gitconfig) och behöver såklart inte checkas in, azure bygger.
+* Orginalbloggen gör en ny blobb för varja blob som laddas upp, jag två. Det löstes mha två Azure Functions med olika THUMBNAIL_WIDTH.
 
 
 This sample demonstrates how to respond to an `EventGridEvent` published by a storage account to resize  an image and upload a thumbnail as described in the article [Automate resizing uploaded images using Event Grid](https://docs.microsoft.com/azure/event-grid/resize-images-on-storage-blob-upload-event?toc=%2Fazure%2Fazure-functions%2Ftoc.json&tabs=net).
